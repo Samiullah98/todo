@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox styleClass="dark-background" xmlns:fx="http://javafx.com/fxml" fx:controller="com.todoapp.controllers.MainController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <HBox alignment="CENTER_LEFT" spacing="10">
+        <Button text="Görev Ekle" onAction="#showAddTask" styleClass="add-button"/>
+        <Label fx:id="welcomeLabel" styleClass="welcome-label"/>
+    </HBox>
+
+    <ScrollPane fitToWidth="true" styleClass="scroll-pane">
+        <GridPane fx:id="taskGrid" hgap="10" vgap="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <columnConstraints>
+                <ColumnConstraints percentWidth="50"/>
+                <ColumnConstraints percentWidth="50"/>
+            </columnConstraints>
+        </GridPane>
+    </ScrollPane>
+</VBox> 

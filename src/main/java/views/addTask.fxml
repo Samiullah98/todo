@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox styleClass="gold-background" spacing="20" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.AddTaskController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <TextArea fx:id="taskDescription" promptText="Görev açıklaması..." prefRowCount="4"/>
+    
+    <HBox spacing="20" alignment="CENTER">
+        <Button fx:id="saveButton" text="Ekle" onAction="#handleSave" styleClass="green-button"/>
+        <Button fx:id="cancelButton" text="İptal" onAction="#handleCancel" styleClass="red-button"/>
+    </HBox>
+</VBox> 

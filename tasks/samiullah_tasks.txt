@@ -1,0 +1,4 @@
+Gym|Go to gym do exercise|2025-05-26|Medium|true
+Lessons|Go to the library for stuyding|2025-05-28|High|false
+Java|Satart Java project|2025-05-26|High|false
+Friend|Meet with your best friend|2025-05-28|Low|false

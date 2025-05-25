@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" styleClass="dark-background" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.AddTaskController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <TextField fx:id="taskTitle" promptText="Task Title"/>
+    <TextArea fx:id="taskDescription" promptText="Task Description" prefRowCount="3"/>
+    
+    <DatePicker fx:id="dueDate" promptText="Due Date"/>
+    
+    <ComboBox fx:id="priorityLevel" promptText="Priority Level"/>
+    
+    <HBox spacing="10">
+        <Button text="Save" onAction="#saveTask" styleClass="green-button"/>
+        <Button text="Cancel" onAction="#cancelTask" styleClass="red-button"/>
+    </HBox>
+</VBox> 

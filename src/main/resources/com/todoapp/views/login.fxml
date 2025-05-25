@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" styleClass="dark-background"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="com.todoapp.controllers.LoginController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="Todo List Uygulaması" styleClass="title-label"/>
+    
+    <TextField fx:id="usernameField" promptText="Kullanıcı Adı" styleClass="input-field"/>
+    <PasswordField fx:id="passwordField" promptText="Şifre" styleClass="input-field"/>
+    
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Giriş Yap" onAction="#handleLogin" styleClass="login-button"/>
+        <Button text="Kaydol" onAction="#handleRegister" styleClass="register-button"/>
+    </HBox>
+    
+    <Label fx:id="messageLabel" styleClass="message-label"/>
+</VBox> 

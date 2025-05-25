@@ -1,0 +1,72 @@
+.dark-background {
+    -fx-background-color: #2b2b2b;
+}
+
+.gold-background {
+    -fx-background-color: #ffd700;
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+}
+
+.welcome-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+.input-field {
+    -fx-pref-width: 200px;
+    -fx-font-size: 14px;
+}
+
+.add-button {
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: white;
+}
+
+.add-button:hover {
+    -fx-background-color: #1b5e20;
+}
+
+.delete-button {
+    -fx-background-color: #c62828;
+    -fx-text-fill: white;
+}
+
+.delete-button:hover {
+    -fx-background-color: #b71c1c;
+}
+
+.login-button, .register-button {
+    -fx-min-width: 100px;
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: white;
+}
+
+.task-box {
+    -fx-background-color: #ffd700;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-background-radius: 5px;
+}
+
+.completed-task {
+    -fx-strikethrough: true;
+    -fx-text-fill: red;
+}
+
+.task-textarea {
+    -fx-pref-height: 200px;
+    -fx-font-size: 14px;
+}
+
+.message-label {
+    -fx-text-fill: red;
+}
+
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+} 

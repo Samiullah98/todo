@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20" styleClass="dark-background" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.LoginController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <TextField fx:id="usernameField" promptText="Username" maxWidth="300"/>
+    <PasswordField fx:id="passwordField" promptText="Password" maxWidth="300"/>
+    
+    <HBox spacing="20" alignment="CENTER">
+        <Button fx:id="loginButton" text="Login" onAction="#handleLogin" styleClass="green-button"/>
+        <Button fx:id="registerButton" text="Register" onAction="#handleRegister" styleClass="green-button"/>
+    </HBox>
+</VBox> 

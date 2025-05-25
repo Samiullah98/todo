@@ -1,0 +1,33 @@
+.dark-background {
+    -fx-background-color: #2b2b2b;
+}
+
+.gold-background {
+    -fx-background-color: #ffd700;
+}
+
+.green-button {
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: white;
+}
+
+.red-button {
+    -fx-background-color: #c62828;
+    -fx-text-fill: white;
+}
+
+.task-box {
+    -fx-background-color: #ffd700;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-background-radius: 5;
+}
+
+.completed-task {
+    -fx-strikethrough: true;
+    -fx-text-fill: red;
+}
+
+.transparent {
+    -fx-background-color: transparent;
+} 

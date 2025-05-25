@@ -1,0 +1,14 @@
+sami:Clean the house
+sami:Call mom
+sami:Read a book for 1 hour
+sami:Do exercise
+sami:Start studying for final exams
+sami:Start Java project
+Sami:Go to school 
+Sami:Meet with best friend
+samiullah:Do exercise
+samiullah:Start Java project
+samiullah:Start studying for final exams
+samiullah:Call mom
+samiullah:Go for shopping
+samiullah:Go to the library for studying 
